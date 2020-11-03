@@ -1,0 +1,6 @@
+PATCH http://localhost:8080/cars/1
+Content-Type: application/json-patch+json
+
+[
+  {"op":"replace","path":"/model","value":"A8"}
+]
